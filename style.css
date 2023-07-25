@@ -231,17 +231,17 @@ main {
 
   align-items: center;
 
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   /* width: 808px;
 height: 361px; */
 }
 
 .about-us-img img{
-  width: 100%;
+  /* width: 100%; */
 }
 
 .about-us-text {
-  width: 40%;
+  width: 100%;
 
   /* padding-left: 5rem; */
 
@@ -452,7 +452,7 @@ padding-bottom: 2rem;
 /*Gallery footer end*/
 /*clints-say*/
 .clients-say {
-  padding: 2rem;
+  padding: 2.5rem 12.125rem;
   background-color: #e5dcff;
 }
 .clients-say h1 {
@@ -807,6 +807,8 @@ line-height: 2.125rem;
  
 
 /*Get in touch form end*/
+
+/*Get in touch form end*/
 /*FOOTER*/
 
 .footer {
@@ -849,19 +851,20 @@ line-height: 2.125rem;
 
 .inner-first-footer {
 
-  border: 1px solid green;
+  /* border: 1px solid green; */
 
-  width: 85%;
-
+  width: 95%;
+  margin-bottom: 3%;
   display: flex;
-
+  justify-content: center;
 }
 
 .footer-icon-and-description {
 
   /* border: 1px solid black; */
 
-  width: 33rem;
+  width: auto;
+  padding-right: 1rem;
 
 }
 
@@ -869,7 +872,8 @@ line-height: 2.125rem;
 
   /* border: 1px solid blue; */
 
-  width: 11.25rem;
+  /* width: 11.25rem; */
+  padding: 0 2rem;
 
 }
 
@@ -885,8 +889,7 @@ line-height: 2.125rem;
 
   /* border: 1px solid red; */
 
-  width: 11.25rem;
-
+  /* width: 11.25rem; */
 }
 
 
@@ -934,7 +937,7 @@ line-height: 2.125rem;
   font-weight: 400;
 
   line-height: normal;
-
+  padding: 0 1rem;
 }
 
 
@@ -969,7 +972,7 @@ line-height: 2.125rem;
 
   /* width: 1px; */
 
-  height: 21px;
+  height: 1.5rem;
 
   color: #454545;
 
@@ -1161,21 +1164,29 @@ line-height: 2.125rem;
 /*FOOTER END*/
 /*my work end*/
 
+/* Responsive Styles */
 @media screen and (max-width:1280px) and (min-width:961px) {
   .inner-first-footer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 2%;
   }
   .first-footer{
     height: auto;
   }
 }
-/* Responsive Styles */
 @media (max-width: 960px) and (min-width: 601px) {
-
+  /*footer*/
+  .footer{
+    padding: 40px 0 16px 0;
+  }
   .inner-first-footer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    height: auto;
   }
   .first-footer{
     height: 29.375rem;
@@ -1184,11 +1195,13 @@ line-height: 2.125rem;
     width: 24rem;
   }
   .footer-icon-and-description{
-    width: 25rem;
+    /* width: 25rem; */
+    width: auto;
   }
-  .inner-first-footer{
+  /* .inner-first-footer{
     width: 90%;
-  }
+  } */
+    /*footer end*/
   html {
     font-size: 16px;
   }
@@ -1472,6 +1485,11 @@ line-height: 2.125rem;
       display: flex;
       flex-wrap: wrap;
     } */
+    /*client-say footer*/
+    .clients-footer{
+      height: 30vh;
+    }
+    /*client-say footer end*/
 }
 @media screen and (max-width: 768px) {
   /*hero*/
@@ -1681,6 +1699,7 @@ line-height: 2.125rem;
   /*gallery end*/
 }
 @media screen and (max-width: 600px) {
+  
   html {
     font-size: 14px;
   }
@@ -1837,10 +1856,11 @@ line-height: 2.125rem;
   .about-us-description-div{
     width: 100%;
   }
-  .about-us-img{
+  .about-us-img img{
     width: 100%;
   }
   /*about us end*/
+  
   /*hamburger end*/
 
   header .logo {
@@ -1990,6 +2010,10 @@ line-height: 2.125rem;
   display: flex;
   /* width: 100%; */
 }
+
+.hostel-description{
+  width: auto;
+}
  
 .str{
   display: flex;
@@ -2008,10 +2032,18 @@ line-height: 2.125rem;
   flex-wrap: wrap;
 }
  
+.footer-follow-us{
+  margin-top: 6rem;
+}
  
   /*footer end*/
+  /*client-say footer*/
+  .clients-footer{
+    height: 30vh;
+  }
+  /*client-say footer end*/
 }
-@media screen and (max-width: 420px) {
+ @media screen and (max-width: 420px) {
   .container {
     width: 100%;
     height: 3.429rem;
@@ -2095,11 +2127,20 @@ line-height: 2.125rem;
     /*about us end*/
 
   /*clients-say*/
+  .clients-say{
+    padding: 2rem;
+  }
   .col .cli-img {
-    width: 100%;
+    width: 188px;
+    height: 188px;
+  }
+  .quotes{
+    padding-left: 0;
+    margin-left: 0;
   }
   .col {
     padding: 0;
+    /* height: 100px; */
   }
   /*clients-say end*/
 }
