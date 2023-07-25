@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/stylesheets/style.css" />
   </head>
   <body id="body">
@@ -21,18 +24,18 @@
           </label>
           <input id="toggle" type="checkbox" />
           <nav class="menu">
-            <ul class="top-menu flex items-center justify-between">
-              <li>
+            <ul class="top-menu flex justify-between items-center">
+              <li class="pad-40">
                 <a class="active" href="#"> ABOUT US</a>
               </li>
-              <li>
+              <li class="pad-40">
                 <a href="#"> GALLERY </a>
               </li>
 
-              <li>
+              <li class="pad-40">
                 <a href="#"> PORTFOLIO </a>
               </li>
-              <li>
+              <li class="pad-40">
                 <a href="#"> TESTIMONIAL </a>
               </li>
               <li>
@@ -51,7 +54,39 @@
             </div>
           </div>
         </section>
+        <section class="about-us">
+
+          <h3 class="about-header-name">About  Us </h3>
+
+           <div class="img-and-text flex jus-center tab-wrap mobile-wrap tab-center mobile-center">
+
+               <div class="about-us-text">
+                <h1 class="">I'm <span>Nitin</span></h1>
+
+                   <div class="about-us-header-div">THE PERSON BEHIND THE CAMERA</div>
+
+                   <div class="about-us-description-div">My work is an expression of what I am most passionate about: storytelling, simplicity and human interaction. I see beauty in everything, everyone. Do you feel the same wayMy work is an expression of what I am most passionate about.</div>
+
+               </div>
+               <div class="about-us-img width-100">
+
+                <img src="./assets/media/Rectangle 13.png" alt="record" srcset="" class="desktop-about-us-img">
+
+            </div>
+
+           </div>
+
+       </section>
+        <section class="about-footer-1">
+          <div class="footer-txt-1 flex jus-center">
+            <p>
+              I'M A SELF TAUGHT PORTRAIT AND LIFESTYLE PHOTOGRAPHER, BASED IN CANADA. I'M A MINIMALIST, A VEGAN, A CERAMICS ARTISAN AND YOGA INSTRUCTOR.
+            </p>
+          </div>
+        </section>
         <section class="gallery">
+          <h1 class="text-center">Gallery</h1>
+          <div class="inner-div">
           <div
             class="wrapper tab-wrap mobile-wrap flex justify-between jus-center"
           >
@@ -81,6 +116,29 @@
                 alt="Image 4"
               />
             </div>
+          </div>
+          <div class="gal-button-main">
+          <button class="gal-button">View All</button></div>
+        </div>
+        </section>
+        <section class="gallery-footer-1">
+          <div class="footer-txt-2 flex jus-center">
+            <p>
+              I've been working in the field of photography for 10+ years and have covered almost every type of event and left all clients more than satisfied with my work.Here are the types of events I'm most experienced at.
+            </p>
+          </div>
+        </section>
+        <section class="my-work">
+          <h1 class="text-center">My <span>Work</span></h1>
+          <div class="work-wrapper flex jus-center tab-wrap mobile-wrap tab-center mobile-center">
+            <div class="w-col w-col-1"><img src="./assets/media/Rectangle 19.png" alt="record"> <div class="arrow-right"><img src="./assets/media/formkit_arrowright.svg" alt="_arrow-right"></div><div class="w-txt">Wedding</div>  <div class="text">Wedding</div>
+            <button class="button">View All</button></div>
+            <div class="w-col w-col-2"><img src="./assets/media/Rectangle 23.png" alt="record"><div class="arrow-right"><img src="./assets/media/formkit_arrowright.svg" alt="_arrow-right"></div><div class="w-txt">Architecure</div><div class="text">Architecure</div>
+            <button class="button">View All</button></div>
+            <div class="w-col w-col-3"><img src="./assets/media/Rectangle 24.png" alt="record"><div class="arrow-right"><img src="./assets/media/formkit_arrowright.svg" alt="_arrow-right"></div><div class="w-txt">Sports</div><div class="text">Sports</div>
+            <button class="button">View All</button></div>
+            <div class="w-col w-col-4"><img src="./assets/media/Rectangle 24.png" alt="record"><div class="arrow-right"><img src="./assets/media/formkit_arrowright.svg" alt="_arrow-right"></div><div class="w-txt">Nature</div><div class="text">Nature</div>
+            <button class="button">View All</button></div>
           </div>
         </section>
         <section class="clients-say">
@@ -113,12 +171,259 @@
           <div class="footer-txt flex jus-center">
             <p>
               Thank you for considering our photography services. We look
-              forward to connecting with <br>you and creating unforgettable memories
+              forward to connecting with you and creating unforgettable memories
               together.
             </p>
           </div>
         </section>
+        <section class="form-section">
+          <div class="inner-form-section">
+              <div class="image-div">
+                  <img src="./form-section/couple-image.png" alt="" srcset="" style="height: 100%;width:100%">
+              </div> 
+              <div class="form-div">
+                  <div class="inner-form-div">
+                      <div class="header-text">Get In Touch</div>
+                      <div class="header-description-text">I look forward to hearing from you!</div>
+                      <form>
+                          <div class="form-wrapper">
+                          <label for="fname" class="label">Name*</label>
+                          <input type="text" id="input-name" name="fname">
+                      </div>
+                      <div class="form-wrapper">
+                          <label for="email" class="label">Email*</label>
+                          <input type="text" id="input-email" name="lname">
+                      </div>
+                          <div class="form-wrapper">
+                          <label for="message" class="label">Suject of message*</label>
+                          <input type="text" id="input-message" name="lname">
+                      </div>
+                          <div class="form-wrapper">
+                          <label for="your-massage" class="label">Your message*</label>
+                          <textarea type="text" id="input-your-message" name="lname"></textarea>
+                      </div>
+                          <input type="submit" value="Submit" class="submit-btn">
+                      </form>
+                      <div class="contact-div">
+                          <div class="mob-no-div">
+                              <div class="phone-logo">
+                                  <div class="inner-phone-logo">
+                                      <img src="./assets/media/Frame.svg" alt="" srcset="" style="height: 100%;width:100%;" class="phone-logo-img">
+                                  </div>
+                              </div>
+                              <div class="phone-number">+91-9860092998</div>
+                          </div>
+                          <div class="email-id-div">
+                              <div class="email-logo">
+                                  <div class="inner-email-logo">
+                                      <img src="./assets/media/Frame (1).svg" alt="" srcset="" style="height: 100%;width:100%;" class="phone-logo-img">
+                                  </div>
+                              </div>
+                              <div class="email-id">nkhamamkar@yahoo.com</div>
+                          </div>
+                      </div>
+                  </div>
+                 
+              </div>
+          </div>
+      </section>
       </main>
+      <footer class="footer">
+
+        <div class="first-footer">
+
+            <div class="inner-first-footer">
+
+                <div class="wrapper-tablet-view" style="display: flex;">
+
+                <div class="footer-icon-and-description">
+
+                    <div class="hostel-logo">
+
+                        <img src="./assets/media/logo 1.png" alt="logo" srcset="" class="hostel-logo-img">
+
+                    </div>
+
+                    <div class="hostel-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies</div>
+
+                </div>
+
+                <div class="footer-other-link">
+
+                    <div class="footer-other-links">Portfolio</div>
+
+                    <a href="kailasa.html#about-us"><div class="footer-link">MARATHON</div></a>
+
+                    <a href="kailasa.html#hostel-facility"><div class="footer-link">CYCLING</div></a>
+
+                    <a href="kailasa.html"><div class="footer-link">EVENT</div></a>
+
+                    <a href="kailasa.html#gallery"><div class="footer-link">Baby</div></a>
+
+                    <a href="kailasa.html#contact-us"><div class="footer-link">ARCHITECHURE</div></a>
+                    <a href="kailasa.html#contact-us"><div class="footer-link">NATURE</div></a>
+                </div>
+                <div class="footer-other-link">
+
+                    <div class="footer-other-links">Other link</div>
+
+                    <a href="kailasa.html#about-us"><div class="footer-link">About Us</div></a>
+
+                    <a href="kailasa.html#hostel-facility"><div class="footer-link">Hostel-Faciity</div></a>
+
+                    <a href="kailasa.html"><div class="footer-link">Testimonial</div></a>
+
+                    <a href="kailasa.html#gallery"><div class="footer-link">Gallery</div></a>
+
+                    <a href="kailasa.html#contact-us"><div class="footer-link">Contact Us</div></a>
+
+                </div>
+
+                </div>
+
+                <div class="wrapper-tablet-view str" style="display: flex;">
+
+                <div class="footer-contact">Contact Info
+
+                <div class="contact-wrapper firsr">
+
+                <div class="contact-img"><img src="./gallery/person_FILL0_wght300_GRAD0_opsz40.svg" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="contact-details">contact person | Mr. kailas</div>
+
+            </div>
+
+                <!-- <div class="contact-wrapper">
+
+                <div class="contact-img"><img src="call.png" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="contact-details">+91-3333333333</div>
+
+            </div> -->
+
+                <div class="contact-wrapper sss">
+
+                <div class="contact-img"><img src="./gallery/mail_FILL0_wght300_GRAD0_opsz40.svg" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="contact-details">wellcometo@cometo.com</div>
+
+            </div>
+
+        </div>
+
+                <div class="footer-follow-us">
+
+                    <div class="footer-follow-us-name">Follow Us</div>
+
+                    <div class="footer-follow-us-logo"><img src="./gallery/Vector.svg" alt="" srcset="" class="facebook-logo"></div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="second-footer">
+
+            <div class="inner-second-footer">
+
+            &copy; 2023 Kailas Hostel
+
+        </div>
+
+        </div>
+
+    </footer>
+
+    <footer class="mob-view-footer">
+
+        <div class="mob-first-footer">
+
+            <div class="mob-footer-icon-and-description">
+
+                <div class="mob-hostel-logo">
+
+                    <img src="../assets/media/logo 1.png" alt="" srcset="" class="mob-hostel-logo-img">
+
+                </div>
+
+                <div class="mob-hostel-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies</div>
+
+            </div>
+
+            <div class="mob-other-link-and-follow-div">
+
+                <div class="mob-other-link-div">
+
+                    <div class="mob-other-link-name">Other link</div>
+
+                    <a href="kailasa.html#about-us"><div class="mob-other-links">About Us</div></a>
+
+                    <a href="kailasa.html#about-us"><div class="mob-other-links">Hostel Facility</div></a>
+
+                    <div class="mob-other-links">Testimonial</div>
+
+                    <div class="mob-other-links">Gallery</div>
+
+                    <div class="mob-other-links">Contact Us</div>
+
+                </div>
+
+                <div class="mob-follow-us-div">
+
+                    <div class="mob-follow-us-name">Follow Us</div>
+
+                    <div class="mob-facebook-logo"><img src="./Vector.svg" alt="" srcset="" ></div>
+
+                </div>
+
+        </div>
+
+            <div class="mob-contact-info-div">
+
+                <div class="mob-contact-info-name">Contact Info</div>
+
+                <div class="contact-mob-wrapper">
+
+                <div class="mob-contact-details-logo"><img src="./person_FILL0_wght300_GRAD0_opsz40.svg" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="mob-contact-details">contact person | Mr. kailas</div>
+
+            </div>
+
+            <!-- <div class="contact-mob-wrapper">
+
+                <div class="mob-contact-details-logo"><img src="call.png" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="mob-contact-details">+91-3333333333</div>
+
+            </div> -->
+
+            <div class="contact-mob-wrapper">
+
+                <div class="mob-contact-details-logo"><img src="./mail_FILL0_wght300_GRAD0_opsz40.svg" alt="" srcset="" class="footer-contact-img"></div>
+
+                <div class="mob-contact-details">wellcometo@cometo.com</div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        <div class="mob-second-footer">
+
+            <div class="mob-inner-second-footer">
+
+                &copy; 2023 Kailas Hostel
+
+            </div>
+
+        </div>
+
+    </footer>
     </div>
     <script src="script.js"></script>
   </body>
