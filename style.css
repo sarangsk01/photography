@@ -123,7 +123,7 @@ main {
 /*Hero Section*/
 
 .hero {
-  background: url("../media/Rectangle-1.png") no-repeat;
+  background: url("../media/Rectangle 1.png") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -179,15 +179,25 @@ main {
   box-sizing: border-box;
 }
 
+.about-header-name  span {
+  color: #000;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  font-style: normal;
+font-weight: 500;
+line-height: 2.125rem;
+}
 .about-header-name {
   /* border: 1px solid green; */
   padding-bottom: 2rem;
-
+  color: #757575;
+  font-style: normal;
   font-size: 1.5rem;
 
   font-family: "Poppins", sans-serif;
 
   /* padding: 1.5em 0; */
+  font-weight: 500;
 
   display: flex;
   margin: 0;
@@ -252,7 +262,7 @@ height: 361px; */
   justify-content: center;
 
   flex-direction: column;
-  padding: 0 0 2rem 0;
+  /* padding: 0 0 2rem 0; */
 }
 
 .about-us-text h1 {
@@ -1017,6 +1027,7 @@ line-height: 2.125rem;
   color: #000;
 
   font-size: 1rem;
+  margin-top: 2.5rem;
 
   font-style: normal;
 
@@ -1024,11 +1035,11 @@ line-height: 2.125rem;
 
   line-height: normal;
 
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
 
   /* width: 4.938rem; */
 
-  height: 1.5rem;
+  /* height: 1.5rem; */
 
   /* margin-bottom: 1.688rem; */
 
@@ -1144,7 +1155,7 @@ line-height: 2.125rem;
 
   width: 90%;
 
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
 
   display: flex;
 
@@ -1175,12 +1186,26 @@ line-height: 2.125rem;
   .first-footer{
     height: auto;
   }
+  /*about-us*/
+  .about-us-img img{
+    width: 100%;
+    height: 50vh;
+  }
+  /*about-us end*/
+  /*client-say*/
+  .clients-say{
+    padding: 2.5rem 3rem;
+  }
+  /*client-say end*/
+  /*get in touch*/
+  .email-id-div{
+    /* width: 0; */
+    /* margin-left: 1rem; */
+  }
+  /*get in touch end*/
 }
 @media (max-width: 960px) and (min-width: 601px) {
-  /*footer*/
-  .footer{
-    padding: 40px 0 16px 0;
-  }
+ 
   .inner-first-footer{
     display: flex;
     flex-wrap: wrap;
@@ -1224,7 +1249,7 @@ line-height: 2.125rem;
 
   /*hero*/
   .hero {
-    background: url("../media/Rectangle-tab.png")no-repeat;
+    background: url("../media/Rectangle 1 Tablet.png")no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1419,7 +1444,7 @@ line-height: 2.125rem;
   }
   .img-3 {
     width: 100%;
-    height: auto;
+    height: 105vh;
   }
   .img-4 {
     width: 100%;
@@ -1486,6 +1511,7 @@ line-height: 2.125rem;
       flex-wrap: wrap;
     } */
     /*client-say footer*/
+
     .clients-footer{
       height: 30vh;
     }
@@ -1628,6 +1654,24 @@ line-height: 2.125rem;
     width: 100%;
   }
   /*gallery end*/
+  /*about-us*/
+  .about-us-img {
+    /* width: 50%; */
+  
+    /* border: 1px solid blue; */
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: flex-end;
+    /* width: 808px;
+  height: 361px; */
+  }
+  .about-us-img img{
+    width: 100%;
+  }
+    /*about-us end*/
 }
 @media screen and (max-width: 912px) {
   /*hero*/
@@ -1710,7 +1754,7 @@ line-height: 2.125rem;
     /* padding: 0; */
   }
   .hero {
-    background: url("../media/Rectangle-mobile.png") no-repeat;
+    background: url("../media/Rectangle-Mobile-586.png") no-repeat;
     background-size: cover;
     /* background-position: center; */
     display: flex;
@@ -1767,7 +1811,7 @@ line-height: 2.125rem;
   .header {
     /* padding: 1rem; */
     /* width: 100%; */
-    border: 0.2px solid #000;
+    /* border: 0.2px solid #000; */
     background-color: #e5dcff;
   }
   .header .logo {
@@ -2032,10 +2076,13 @@ line-height: 2.125rem;
   flex-wrap: wrap;
 }
  
-.footer-follow-us{
+/* .footer-follow-us{
   margin-top: 6rem;
+} */
+.inner-first-footer{
+  display: flex;
+  justify-content: flex-start;
 }
- 
   /*footer end*/
   /*client-say footer*/
   .clients-footer{
@@ -2057,7 +2104,7 @@ line-height: 2.125rem;
   /*header end*/
   /*hero*/
   .hero {
-    background: url("../media/Rectangle-mobile.png") no-repeat;
+    background: url("../media/Rectangle-Mobile-586.png") no-repeat;
     background-size: cover;
     /* background-position: center; */
   display: flex;
